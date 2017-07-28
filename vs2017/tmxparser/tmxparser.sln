@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tmxparser", "tmxparser\tmxparser.vcxproj", "{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D} = {D1C528B6-AA02-4D29-9D61-DC08E317A70D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxml2", "..\..\..\tinyxml2\tinyxml2\tinyxml2.vcxproj", "{D1C528B6-AA02-4D29-9D61-DC08E317A70D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Itanium = Debug|Itanium
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Debug-Dll|Itanium = Debug-Dll|Itanium
+		Debug-Dll|x64 = Debug-Dll|x64
+		Debug-Dll|x86 = Debug-Dll|x86
+		Debug-Lib|Itanium = Debug-Lib|Itanium
+		Debug-Lib|x64 = Debug-Lib|x64
+		Debug-Lib|x86 = Debug-Lib|x86
+		Release|Itanium = Release|Itanium
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Release-Dll|Itanium = Release-Dll|Itanium
+		Release-Dll|x64 = Release-Dll|x64
+		Release-Dll|x86 = Release-Dll|x86
+		Release-Lib|Itanium = Release-Lib|Itanium
+		Release-Lib|x64 = Release-Lib|x64
+		Release-Lib|x86 = Release-Lib|x86
+		ReleaseWithoutAsm|Itanium = ReleaseWithoutAsm|Itanium
+		ReleaseWithoutAsm|x64 = ReleaseWithoutAsm|x64
+		ReleaseWithoutAsm|x86 = ReleaseWithoutAsm|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug|Itanium.ActiveCfg = Debug|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug|x64.ActiveCfg = Debug|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug|x64.Build.0 = Debug|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug|x86.Build.0 = Debug|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Dll|Itanium.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Dll|Itanium.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Dll|x64.ActiveCfg = Debug|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Dll|x64.Build.0 = Debug|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Dll|x86.ActiveCfg = Debug|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Dll|x86.Build.0 = Debug|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Lib|Itanium.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Lib|Itanium.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Lib|x64.ActiveCfg = Debug|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Lib|x64.Build.0 = Debug|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Lib|x86.ActiveCfg = Debug|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Debug-Lib|x86.Build.0 = Debug|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release|Itanium.ActiveCfg = Release|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release|x64.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release|x64.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release|x86.ActiveCfg = Release|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release|x86.Build.0 = Release|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Dll|Itanium.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Dll|Itanium.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Dll|x64.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Dll|x64.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Dll|x86.ActiveCfg = Release|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Dll|x86.Build.0 = Release|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Lib|Itanium.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Lib|Itanium.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Lib|x64.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Lib|x64.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Lib|x86.ActiveCfg = Release|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.Release-Lib|x86.Build.0 = Release|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.ReleaseWithoutAsm|Itanium.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.ReleaseWithoutAsm|Itanium.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.ReleaseWithoutAsm|x64.ActiveCfg = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.ReleaseWithoutAsm|x64.Build.0 = Release|x64
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.ReleaseWithoutAsm|x86.ActiveCfg = Release|Win32
+		{AE56EB1D-F1BA-44CE-8925-4FBE90C90EED}.ReleaseWithoutAsm|x86.Build.0 = Release|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug|Itanium.ActiveCfg = Debug-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug|Itanium.Build.0 = Debug-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug|x64.ActiveCfg = Debug-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug|x64.Build.0 = Debug-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug|x86.ActiveCfg = Debug-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug|x86.Build.0 = Debug-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Dll|Itanium.ActiveCfg = Debug-Dll|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Dll|x64.ActiveCfg = Debug-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Dll|x64.Build.0 = Debug-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Dll|x86.ActiveCfg = Debug-Dll|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Dll|x86.Build.0 = Debug-Dll|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Lib|Itanium.ActiveCfg = Debug-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Lib|x64.ActiveCfg = Debug-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Lib|x64.Build.0 = Debug-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Lib|x86.ActiveCfg = Debug-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Debug-Lib|x86.Build.0 = Debug-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release|Itanium.ActiveCfg = Debug-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release|Itanium.Build.0 = Debug-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release|x64.ActiveCfg = Release-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release|x64.Build.0 = Release-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release|x86.ActiveCfg = Release-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release|x86.Build.0 = Release-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Dll|Itanium.ActiveCfg = Release-Dll|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Dll|x64.ActiveCfg = Release-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Dll|x64.Build.0 = Release-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Dll|x86.ActiveCfg = Release-Dll|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Dll|x86.Build.0 = Release-Dll|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Lib|Itanium.ActiveCfg = Release-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Lib|x64.ActiveCfg = Release-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Lib|x64.Build.0 = Release-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Lib|x86.ActiveCfg = Release-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.Release-Lib|x86.Build.0 = Release-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.ReleaseWithoutAsm|Itanium.ActiveCfg = Debug-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.ReleaseWithoutAsm|Itanium.Build.0 = Debug-Dll|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.ReleaseWithoutAsm|x64.ActiveCfg = Release-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.ReleaseWithoutAsm|x64.Build.0 = Release-Lib|x64
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.ReleaseWithoutAsm|x86.ActiveCfg = Release-Lib|Win32
+		{D1C528B6-AA02-4D29-9D61-DC08E317A70D}.ReleaseWithoutAsm|x86.Build.0 = Release-Lib|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
