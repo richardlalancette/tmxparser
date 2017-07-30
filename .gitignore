@@ -17,3 +17,4 @@ vs2017/tmxparser/x64/Debug/
 vs2017/tmxparser/x64/Release/
 *.log
 *.pdb
+*.user
